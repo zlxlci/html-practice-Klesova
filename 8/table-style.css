@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+    font-family: "Caveat", cursive;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.shapes-table {
+    border-collapse: collapse;
+    margin: 30px 0;
+    width: 500px;
+}
+
+.shapes-table th, .shapes-table td {
+    border: 2px solid #333;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.shapes-table th {
+    background-color: #eaeaea;
+    font-weight: bold;
+}
+
+.shape {
+    margin: 0 auto;
+}
+
+.red-square {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 121, 177);
+}
+
+.cyan-circle {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(235, 215, 102);
+    border-radius: 50%;
+}
+
+.blue-rectangle {
+    width: 90px;
+    height: 50px;
+    background-color: rgb(137, 248, 187);
+}
+
+.back-box {
+    margin-top: 40px;
+}
+
+.btn-back {
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #7f8c8d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: "Caveat", cursive;
+}
+
+.btn-back:hover {
+    background-color: #95a5a6;
+}
